@@ -28,7 +28,7 @@ function animateSlides() {
         })
             .setTween(slideTl)
             // Show start and trigger indicators next to the scrollbar to determine when to start the animation
-            .addIndicators({ colorStart: "white", colorTrigger: "white", name: "slide" })
+            // .addIndicators({ colorStart: "white", colorTrigger: "white", name: "slide" })
             .addTo(controller);
 
         // new Animation
@@ -191,11 +191,11 @@ function detailAnimation() {
         })
             .setPin(slide, { pushFollowers: false })
             .setTween(slideTl)
-            .addIndicators({
-                colorStart: "white",
-                colorTrigger: "white",
-                name: "detailScene",
-            })
+            // .addIndicators({
+            //     colorStart: "white",
+            //     colorTrigger: "white",
+            //     name: "detailScene",
+            // })
             .addTo(controller);
     })
 }

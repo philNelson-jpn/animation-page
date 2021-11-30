@@ -119,12 +119,17 @@ main {
   clip-path: circle(50px at 100% -10%);
   -webkit-clip-path: circle(50px at 100% -10%);
 }
+
+
 .burger {
   cursor: pointer;
 }
 .nav-links {
   font-size: 3rem;
   flex-basis: 30rem;
+}
+.nav-links a{
+  text-decoration: none;
 }
 .nav-links h3 {
   padding: 3rem 0rem;

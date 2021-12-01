@@ -139,12 +139,12 @@ main {
   flex-basis: 30rem;
 }
 .contact h2 {
-  font-size: 3rem;
+  font-size: 4rem;
   padding: 2rem 0rem;
   font-family: "Trade Winds","Patrick Hand", "Caveat", "Rubik", "Poppins", sans-serif;
 }
 .contact p {
-  font-size: 1.5rem;
+  font-size: 2.5rem;
   line-height: 2rem;
   font-family: "Patrick Hand", "Caveat", "Rubik", "Poppins", sans-serif;
 }
